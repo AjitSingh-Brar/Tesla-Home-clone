@@ -6,20 +6,20 @@ function Header() {
   return (
     <div className="header">
       <div className="header__logo">
-        <img src={TeslaLogo} alt="tesla logo" />
+      <a href="">  <img src={TeslaLogo} alt="tesla logo" /></a>
       </div>
 
       <div className="header__center">
-        <p>Model S</p>
-        <p>Model 3</p>
-        <p>Model X</p>
-        <p>Model Y</p>
-        <p>Solar Roof</p>
-        <p>Solar Panels</p>
+       <p> <a href="">Model S</a></p>
+        <p><a href="">Model 3</a></p>
+        <p><a href="">Model X</a></p>
+        <p><a href="">Model Y</a></p>
+        <p><a href="">Solar Roof</a></p>
+        <p><a href="">Solar Panels</a></p>
       </div>
       <div className="header__right">
-        <p>Shop</p>
-        <p>Tesla Account</p>
+        <p><a href="">Shop</a></p>
+        <p><a href="">Tesla Account</a></p>
         <div className="header__icon"><ReorderIcon /></div>
         
       </div>

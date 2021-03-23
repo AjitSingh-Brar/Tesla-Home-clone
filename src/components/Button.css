@@ -1,0 +1,50 @@
+.button{
+    background-color: rgba(6, 7, 8, 0.95);
+    height: 40px;
+    width: 256px;
+    margin-top: 450px;
+    margin-left:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: 0.85;
+    
+}
+
+.button>a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.button__white{
+    background-color: white;
+    opacity: 0.65;
+}
+
+.button__white>a{
+    color: black;
+}
+
+.button__special{
+    background-color: rgba(6, 7, 8, 0.95);;
+    height: 40px;
+    width: 256px;
+    margin-top: 440px;
+    margin-left:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: 0.85;
+}
+
+.button__special>a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
